@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>RAUT-RAUT_IT13B</name>
+            <name>RAUT_RAUT_IT13B</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
