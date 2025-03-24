@@ -15,11 +15,15 @@ public class palindrome {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter The Wordenengs: ");
         String input = in.nextLine().toLowerCase();
+        System.out.print("Enter The Second Wordenengs: ");
+        String input1 = in.nextLine().toLowerCase();
         
         String reversed="";
         
         for(int i= input.length()-1; i>=0; i--){
         reversed += input.charAt(i);
+          for(int x= input1.length()-1; i>=0; i--){
+        reversed += input1.charAt(i);
         }
         if(input.equals(reversed)){
             System.out.print(input+ " is a palindrome ");
@@ -27,4 +31,4 @@ public class palindrome {
             System.out.print(input+ " is not a palindrome ");
     }
     }
-}
+    }  
